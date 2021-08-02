@@ -10,7 +10,7 @@ def twoSum (nums, target):
 
 def twoSum2 (nums, target):
     nums_map = {}
-    for i, num in enumerate(nums):
+    for i, num in enumerate(nums): 
         if target - num in nums_map:
             return [i, nums_map[target - num]]
         nums_map[num] = i
